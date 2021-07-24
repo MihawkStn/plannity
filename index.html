@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plannity - Accueil</title>
+    <link href='https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://images-ext-2.discordapp.net/external/VYvrAOA9ZdveII7ghwyvWX_Wvd1CqTibBWVRSgQSY_Y/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/807912710910115861/395e6c632f56b2174991d36c07832caa.png">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bxs-ghost'></i>
+                <div class="logo_name">Plannity</div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                <a href="index.html">
+                    <i class='bx bx-home-alt'></i>
+                    <span class="links_name">Accueil</span>
+                </a>
+                <span class="tooltip">Accueil</span>
+            </li>
+            <li>
+                <a href="https://discord.com/oauth2/authorize?client_id=807912710910115861&scope=bot&permissions=8" target="_BLANK">
+                    <i class='bx bx-link-alt'></i>
+                    <span class="links_name">Bot Link</span>
+                </a>
+                <span class="tooltip">Bot Link</span>
+            </li>            
+            <li>
+                <a href="https://discord.gg/yfJNkWmn6T" target="_BLANK">
+                    <i class='bx bxl-discord-alt'></i>
+                    <span class="links_name">Server</span>
+                </a>
+                <span class="tooltip">Server</span>
+            </li>            
+            <li>
+                <a href="mailto:plannitybots@gmail.com" target="_BLANK">
+                    <i class='bx bx-envelope'></i>
+                    <span class="links_name">Message</span>
+                </a>
+                <span class="tooltip">Message</span>
+            </li>            
+            <li>
+                <a href="aboutus.html">
+                    <i class='bx bx-info-circle' ></i>
+                    <span class="links_name">About Us</span>
+                </a>
+                <span class="tooltip">About Us</span>
+            </li>
+            <li>
+                <a href="commands.html">
+                    <i class='bx bx-command'></i>
+                    <span class="links_name">Commands</span>
+                </a>
+                <span class="tooltip">Commands</span>
+            </li>
+        </ul>
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                    <img src="https://media.discordapp.net/attachments/780020966079332363/868552961171787776/image-removebg-preview.png" alt="lg">
+                    <div class="name_job">
+                        <div class="name">Random ♕</div>
+                        <div class="job">Discord-User</div>
+                    </div>
+                </div>
+                <i class='bx bx-log-out-circle' id="log_out"></i>
+            </div>
+        </div>
+    </div>
+    <div class="home_content">
+        <div class="text">
+            <h1>p/hello</h1>
+            <h2>Bienvenu(<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_BLANK" class="rr">e</a>) sur le site du bot Plannity ! <br> Ajoutes le a ton serveur pour jouer avec :) </h2>
+            <p>Qui est Plannity ? <br> Plannity est un Bot Discord créé le 07/02/2020 par <staff>" 𝑴𝒊𝒕𝒔𝒖𝒚𝒂🎻#4062</staff> .<br>Il sert pour des commandes fun (ex: p/smile)<br>ou aussi pour la moderation (ex: p/mute @user)<br>Le bot est pour l'instant dans moins de 5 serveurs<br>Nous esperons qu'il sera + connu dans le futur...<br>Nous possedons aussi un serv discord, pour ceux que ca interesse.<br>il contient <booster>140 membres</booster> (sans compter les bots) et plein de salons amusants.</p>
+            <img src="https://media.discordapp.net/attachments/726697863475626014/868532019829805085/unknown.png" alt="BOT" id="screen">
+        </div>
+    </div>
+
+    <script>
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+        let searchBtn = document.querySelector(".bx-search");
+
+        btn.onclick = function() {
+            sidebar.classList.toggle("active")
+        }
+        searchBtn.onclick = function() {
+            sidebar.classList.toggle("active")
+        }
+
+    </script>
+
+</body>
+</html>

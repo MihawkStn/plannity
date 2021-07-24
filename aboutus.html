@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plannity - Accueil</title>
+    <link href='https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://images-ext-2.discordapp.net/external/VYvrAOA9ZdveII7ghwyvWX_Wvd1CqTibBWVRSgQSY_Y/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/807912710910115861/395e6c632f56b2174991d36c07832caa.png">
+
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bxs-ghost'></i>
+                <div class="logo_name">Plannity</div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                <a href="index.html">
+                    <i class='bx bx-home-alt'></i>
+                    <span class="links_name">Accueil</span>
+                </a>
+                <span class="tooltip">Accueil</span>
+            </li>
+            <li>
+                <a href="https://discord.com/oauth2/authorize?client_id=807912710910115861&scope=bot&permissions=8" target="_BLANK">
+                    <i class='bx bx-link-alt'></i>
+                    <span class="links_name">Bot Link</span>
+                </a>
+                <span class="tooltip">Bot Link</span>
+            </li>            
+            <li>
+                <a href="https://discord.gg/yfJNkWmn6T" target="_BLANK">
+                    <i class='bx bxl-discord-alt'></i>
+                    <span class="links_name">Server</span>
+                </a>
+                <span class="tooltip">Server</span>
+            </li>            
+            <li>
+                <a href="mailto:plannitybots@gmail.com" target="_BLANK">
+                    <i class='bx bx-envelope'></i>
+                    <span class="links_name">Message</span>
+                </a>
+                <span class="tooltip">Message</span>
+            </li>            
+            <li>
+                <a href="aboutus.html">
+                    <i class='bx bx-info-circle' ></i>
+                    <span class="links_name">About Us</span>
+                </a>
+                <span class="tooltip">About Us</span>
+            </li>
+            <li>
+                <a href="commands.html">
+                    <i class='bx bx-command'></i>
+                    <span class="links_name">Commands</span>
+                </a>
+                <span class="tooltip">Commands</span>
+            </li>
+        </ul>
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                    <img src="https://media.discordapp.net/attachments/780020966079332363/868552961171787776/image-removebg-preview.png" alt="lg">
+                    <div class="name_job">
+                        <div class="name">Random ♕</div>
+                        <div class="job">Discord-User</div>
+                    </div>
+                </div>
+                <i class='bx bx-log-out-circle' id="log_out"></i>
+            </div>
+        </div>
+    </div>
+    <div class="home_content">
+        <div class="text">
+            <h1>p/about us</h1>
+            <h2>A propos de... ! <br> A propos du bot et du createur... :) </h2>
+            <p>Le createur du bot, du site et du serv discord est <staff>" 𝑴𝒊𝒕𝒔𝒖𝒚𝒂🎻#4062</staff> .<br>Le(/a) dernier(<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_BLANK" class="rr">e</a>) booster du serveur est <booster>Momo#4561</booster> (Merci ^^) .<br>Le serveur discord a été créé le 05/08/2020 (bientot 1an) .<br>L'email pour nous contacter est "plannitybots@gmail.com"<br>Le staff est composé de 7 membres dont :<br>- <staff>TangentDeer2500🎇#5050</staff> (Bras Droit)<br>- <staff>o.ppaz3#0069</staff> , <staff>Elite Burst#1000</staff> et <staff>Kaitos#2010</staff> (Admins)<br>- <staff>Ayato.#0001</staff> et <staff>Krylox#8714</staff> (Moderateurs)<br>- Puis <staff>moi même</staff> (Créateur) .</p>
+            <img src="https://media.discordapp.net/attachments/726697863475626014/868548346825015356/unknown.png" alt="BOOST" id="boosta">
+        </div>
+    </div>
+
+    <script>
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+        let searchBtn = document.querySelector(".bx-search");
+
+        btn.onclick = function() {
+            sidebar.classList.toggle("active")
+        }
+        searchBtn.onclick = function() {
+            sidebar.classList.toggle("active")
+        }
+
+    </script>
+
+</body>
+</html>
